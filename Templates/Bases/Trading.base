@@ -1,0 +1,17 @@
+filters:
+  and:
+    - file.hasTag("trading")
+    - '!file.inFolder("Templates")'
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: date
+      direction: DESC
+    order:
+      - file.name
+      - date
+      - trading-type
+    columnSize:
+      file.name: 134
+      note.date: 119

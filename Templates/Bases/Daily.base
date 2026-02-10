@@ -1,0 +1,16 @@
+filters:
+  and:
+    - file.inFolder("Notes")
+    - date == this.date
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: date
+      direction: DESC
+    order:
+      - aliases
+      - file.name
+      - date
+    columnSize:
+      note.aliases: 90

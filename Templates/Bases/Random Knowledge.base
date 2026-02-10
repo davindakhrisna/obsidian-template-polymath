@@ -1,0 +1,17 @@
+filters:
+  and:
+    - file.hasTag("random-knowledge")
+    - '!file.inFolder("Templates")'
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: date
+      direction: DESC
+    order:
+      - aliases
+      - file.name
+      - date
+    columnSize:
+      note.aliases: 94
+      file.name: 125

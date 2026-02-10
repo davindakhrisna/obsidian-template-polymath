@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "1f340f6ba028a6de",
+    "type": "split",
+    "children": [
+      {
+        "id": "1bc8f821bc1ab7f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc5924ddb0ffb405",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Category/Ideas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ideas"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "67c23408015d096e",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e9476743fed56e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19b82f8c1476ebdb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5fa8f8c151103a09",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fc134ca069f1b0ea",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8df9b3faf42f9c75",
+    "type": "split",
+    "children": [
+      {
+        "id": "d83136e1ee30378f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "151f513d3f13e413",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Dashboard.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Dashboard"
+            }
+          },
+          {
+            "id": "88bac04c13c5aa14",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Dashboard.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Dashboard"
+            }
+          },
+          {
+            "id": "def8475001b19a48",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "784b0168ed4d04ab",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f612b6d4ac4c10b8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Category/Ideas.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Ideas"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 464.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "zk-prefixer:Create new unique note": false,
+      "bases:Create new base": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "copilot:Open Copilot Chat": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "f612b6d4ac4c10b8",
+  "lastOpenFiles": [
+    "Dashboard.md",
+    "Category/Project.md",
+    "Notes/2026-02-02 (00-11).md",
+    "Notes/2026-02-01 (21-33).md",
+    "Notes/2026-02-01 (19-39).md",
+    "Notes/2026-01-31 (23-52).md",
+    "Notes/2026-01-31 (20-23).md",
+    "Notes/Human Regret Matrix.md",
+    "Notes/2026-01-31 (19-21).md",
+    "Category/Ideas.md",
+    "Category/Principles.md",
+    "References/Vault/2026-01-31 Brain-Gym Log.md",
+    "References/Copilot/copilot-conversations/halo_bro@20260201_132925.md",
+    "References/Copilot/system-prompts/The Architect.md",
+    "References/Vault/Untitled.md",
+    "References/Vault/Debat Internal_ Mindset Powerful Tapi Berisiko .pdf",
+    "References/Vault",
+    "Category/Places.md",
+    "Templates/Mental Lab Template.md",
+    "Templates/Bases/Mental Lab.base",
+    "Templates/Bases/Principles.base",
+    "Notes/2026-01-31 (20-07).md",
+    "Templates/Principles Template.md",
+    "Notes/2026-01-31 (19-43).md",
+    "Notes/2026-01-31 (19-16).md",
+    "Templates/Financial Knowledge Template.md",
+    "Category/Academic/Principles.md",
+    "Category/Study.md",
+    "Category/Random Knowledge.md",
+    "Category/ICT.md",
+    "References/Copilot/memory",
+    "References/Copilot/system-prompts",
+    "References/Copilot/copilot-conversations",
+    "copilot",
+    "References/Copilot/copilot-custom-prompts",
+    "References/Copilot",
+    "Untitled.canvas",
+    "Attachments/Pasted image 20260102214417.png",
+    "Attachments/Pasted image 20260102205238.png",
+    "Attachments/Pasted image 20260102204827.png",
+    "Attachments/Pasted image 20260102201359.png",
+    "Attachments/Pasted image 20260102201348.png",
+    "Attachments/Pasted image 20260102200641.png",
+    "Attachments/Pasted image 20260102200237.png",
+    "Attachments/Pasted image 20260102195924.png",
+    "Attachments/Pasted image 20260102195535.png",
+    "Attachments/Pasted image 20260102195515.png"
+  ]
+}

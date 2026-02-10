@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.inFolder("Notes/Books")
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Notes/Books")
+    image: note.coverUrl
+    imageAspectRatio: 1.5
+    imageFit: contain

@@ -1,0 +1,7 @@
+filters:
+  and:
+    - file.hasTag("games")
+    - '!file.inFolder("Templates")'
+views:
+  - type: table
+    name: Table

@@ -1,0 +1,18 @@
+filters:
+  and:
+    - file.inFolder("Archive")
+    - date <= this.date
+    - date >= this.date - 7
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: date
+      direction: DESC
+    order:
+      - aliases
+      - file.name
+      - date
+    columnSize:
+      note.aliases: 81
+      file.name: 97

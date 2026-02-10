@@ -1,0 +1,12 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "date": "date",
+    "likeable": "multitext",
+    "status": "multitext",
+    "trading-type": "multitext",
+    "completion-rate": "number"
+  }
+}

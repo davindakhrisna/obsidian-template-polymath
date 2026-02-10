@@ -1,0 +1,21 @@
+filters:
+  and:
+    - file.hasTag("project")
+    - '!file.inFolder("Templates")'
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - aliases
+      - file.mtime
+      - status
+    sort:
+      - property: status
+        direction: ASC
+      - property: aliases
+        direction: ASC
+    columnSize:
+      file.name: 155
+      note.aliases: 246
+      file.mtime: 191

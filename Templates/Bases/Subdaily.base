@@ -1,0 +1,6 @@
+filters:
+  and:
+    - file.inFolder("Category/Daily")
+views:
+  - type: table
+    name: Table

@@ -1,0 +1,21 @@
+filters:
+  and:
+    - file.inFolder("Notes")
+    - '!file.inFolder("Notes/Books")'
+    - file.tags == ["journal"]
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: date
+      direction: DESC
+    order:
+      - aliases
+      - file.name
+      - date
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.aliases: 94
+      file.name: 118

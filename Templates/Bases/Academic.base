@@ -1,0 +1,7 @@
+filters:
+  and:
+    - file.inFolder("Category/Academic")
+views:
+  - type: cards
+    name: Table
+    image: note.coverUrl

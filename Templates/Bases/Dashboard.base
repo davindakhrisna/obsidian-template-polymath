@@ -1,0 +1,16 @@
+filters:
+  and:
+    - file.inFolder("Category")
+    - '!file.inFolder("Category/Daily")'
+    - '!file.inFolder("Category/Academic")'
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Category")
+        - '!file.inFolder("Category/Daily")'
+    rowHeight: medium
+    cardSize: 120
+    imageAspectRatio: 1.05
+    image: note.coverUrl

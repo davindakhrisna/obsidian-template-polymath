@@ -1,0 +1,23 @@
+{
+  "attachmentFolderPath": "Attachments",
+  "mobileToolbarCommands": [
+    "editor:undo",
+    "editor:redo",
+    "editor:insert-wikilink",
+    "editor:insert-embed",
+    "editor:set-heading",
+    "editor:toggle-bold",
+    "editor:toggle-italics",
+    "editor:toggle-strikethrough",
+    "editor:toggle-blockquote",
+    "editor:toggle-checklist-status",
+    "editor:toggle-bullet-list",
+    "editor:indent-list",
+    "insert-template",
+    "audio-recorder:start",
+    "audio-recorder:stop",
+    "editor:configure-toolbar",
+    "editor:unindent-list"
+  ],
+  "alwaysUpdateLinks": true
+}

@@ -1,0 +1,21 @@
+filters:
+  and:
+    - file.hasLink(this)
+views:
+  - type: table
+    name: Table
+    order:
+      - aliases
+      - file.name
+      - date
+      - completion-rate
+    sort:
+      - property: completion-rate
+        direction: DESC
+      - property: aliases
+        direction: DESC
+    columnSize:
+      note.aliases: 563
+      file.name: 157
+      note.date: 133
+      note.completion-rate: 123

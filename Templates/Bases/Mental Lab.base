@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.hasTag("mental-lab")
+    - '!file.inFolder("Templates")'
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - aliases
+      - date
+    columnSize:
+      file.name: 162
+      note.aliases: 274

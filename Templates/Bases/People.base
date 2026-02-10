@@ -1,0 +1,12 @@
+filters:
+  and:
+    - '!file.inFolder("Templates")'
+    - file.hasTag("people")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - likeable
+    columnSize:
+      file.name: 102

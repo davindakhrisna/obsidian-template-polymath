@@ -1,0 +1,18 @@
+filters:
+  and:
+    - file.hasTag("fleeting")
+    - '!file.inFolder("Templates")'
+views:
+  - type: table
+    name: Table
+    order:
+      - aliases
+      - file.name
+      - date
+    sort:
+      - property: date
+        direction: DESC
+    columnSize:
+      note.aliases: 227
+      file.name: 189
+      note.date: 252

@@ -1,0 +1,9 @@
+{
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "properties-layout"
+  ],
+  "accentColor": "",
+  "theme": "obsidian",
+  "nativeMenus": false
+}

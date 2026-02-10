@@ -1,0 +1,17 @@
+filters:
+  and:
+    - file.hasTag("health-information")
+    - '!file.inFolder("Templates")'
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: date
+      direction: DESC
+    order:
+      - aliases
+      - file.name
+      - date
+    columnSize:
+      note.aliases: 97
+      file.name: 110
