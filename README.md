@@ -4,8 +4,8 @@
 
 I love how Obsidian's CEO keeps his note in chaotic but well connected way. But I don't like how cluttered it can be at the root folder, so take this as a sub-implementation for a college student on his template
 
-![Alt text](public/preview1?raw=true "Preview 1")
-![Alt text](public/preview2?raw=true "Preview 2")
+![Alt text](public/preview1.png?raw=true "Preview 1")
+![Alt text](public/preview2.png?raw=true "Preview 2")
 
 ## Installation
 
